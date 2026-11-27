@@ -1,0 +1,30 @@
+# Reel 7: the dog, the child and giving (merged style)
+CARDS = [("1", "הילד", "זקוק להורים", "stroller"), ("2", "ההורים", "זקוקים לילד", "couple")]
+HK = ("שאלה מהקהל", "אבל הכלב נשאר")
+SEG = [
+    dict(a=1129.96, b=1131.50, layout="stage", theme="navy", hook=HK, hook_out=False, icon="paw", splits=[3], keys=[1], modes=["line"]),
+    dict(a=1132.90, b=1135.12, layout="stage", theme="navy", hook=HK, hook_in=False, icon="paw", icon_draw=0, splits=[3,3], keys=[2,1], modes=["line","stack"]),
+    dict(a=1143.12, b=1144.90, layout="stage", theme="navy", wm="כלב", icon="paw", icon_draw=0, punch=True, splits=[3,2], keys=[2,1], modes=["line","line"]),
+    dict(a=1145.38, b=1146.66, layout="stage", theme="navy", wm="כלב", icon="paw", icon_draw=0, punch=True, splits=[3], keys=[1], modes=["stack"]),
+    dict(a=1148.40, b=1149.10, layout="stage", theme="rose", wm="למה?", splits=[3], keys=[2], modes=["stack"]),
+    dict(a=1150.08, b=1151.26, layout="stage", theme="rose", wm="אהבה", icon="heart", splits=[4], keys=[3], modes=["line"]),
+    dict(a=1151.62, b=1152.76, layout="stage", theme="rose", wm="אהבה", icon="heart", icon_draw=0, splits=[4], keys=[2], modes=["line"]),
+    dict(a=1153.28, b=1154.48, layout="stage", theme="rose", wm="אהבה", icon="heart", icon_draw=0, punch=True, splits=[3,2], keys=[2,1], modes=["line","stack"]),
+    dict(a=1154.94, b=1156.26, layout="stage", theme="rose", wm="אהבה", icon="heart", icon_draw=0, punch=True, splits=[3,2], keys=[2,1], modes=["line","stack"]),
+    dict(a=1180.20, b=1183.30, layout="stage", theme="purple", wm="זקוק", icon="paw", splits=[3,2,4], keys=[1,0,1], modes=["line","stack","line"]),
+    dict(a=1183.96, b=1185.64, layout="stage", theme="purple", wm="זקוק", icon="paw", icon_draw=0, splits=[3,2], keys=[1,1], modes=["line","line"]),
+    dict(a=1186.50, b=1187.70, layout="stage", theme="purple", wm="זקוק", icon="paw", icon_draw=0, punch=True, splits=[3], keys=[1], modes=["stack"]),
+    dict(a=1191.62, b=1192.54, layout="cards", active="1", appear={"1": 0.0, "2": 0.3}, splits=[2], keys=[1]),
+    dict(a=1196.16, b=1198.72, layout="cards", active="1", splits=[3,3], keys=[1,0]),
+    dict(a=1198.96, b=1200.58, layout="cards", active="2", appear={"2": 0.0}, fix={"ל...": ""}, splits=[2,2], keys=[0,1]),
+    dict(a=1201.58, b=1206.62, layout="quote", theme="warm", lines=["יותר משהעגל רוצה לינוק", "הפרה רוצה להניק"]),
+    dict(a=1213.82, b=1216.24, layout="stage", theme="teal", wm="זהות", icon="fingerprint", splits=[3,3], keys=[1,0], modes=["line","line"]),
+    dict(a=1217.10, b=1219.62, layout="stage", theme="teal", wm="זהות", icon="fingerprint", icon_draw=0, punch=True, splits=[4,3,2], keys=[3,1,1], modes=["line","stack","line"]),
+    dict(a=1220.82, b=1224.00, layout="focus", theme="teal", small="על איזה ציר קיומי", big="הנתינה"),
+    dict(a=1225.64, b=1227.44, layout="stage", theme="warm", wm="חיים", icon="gift", splits=[1,3], keys=[0,2], modes=["line","stack"]),
+    dict(a=1228.46, b=1229.92, layout="stage", theme="warm", wm="חיים", icon="gift", icon_draw=0, punch=True, splits=[2,3], keys=[1,2], modes=["line","stack"]),
+    dict(a=1231.46, b=1232.94, layout="stage", theme="warm", wm="חיים", icon="gift", icon_draw=0, splits=[3,2], keys=[2,0], modes=["line","line"]),
+    dict(a=1233.84, b=1234.66, layout="stage", theme="warm", wm="חיים", icon="gift", icon_draw=0, punch=True, splits=[3], keys=[1], modes=["line"]),
+    dict(a=1235.20, b=1236.72, layout="burst", theme="warm", wm="בלי", splits=[2,2], keys=[1,1], modes=["line","hero"], big=170),
+    dict(a=1236.82, b=1238.00, layout="stage", theme="warm", wm="חיים", punch=True, splits=[3], keys=[2], modes=["stack"]),
+]
